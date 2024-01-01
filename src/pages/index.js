@@ -11,6 +11,7 @@ export default function HomePage({ album }) {
       <div className="bg-[#6B8E23] gap-2 p-10 space-x-5 text-[#87CEFA] text-xl font-bold">
         <Link href={"#"}>Home</Link>
         <Link href={"/home"}>Albums</Link>
+        <Link href={"/photos"}>Photos</Link>
       </div>
       <div className=" bg-[#6B8E23]">
         <h1 className="text-center py-10 font-bold text-[#FAEBD7] text-3xl">

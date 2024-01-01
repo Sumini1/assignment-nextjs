@@ -8,7 +8,7 @@ export async function getServerSideProps() {
 export default function HomePage({ photos }) {
   return (
     <>
-      <div className=" bg-[#6B8E23] z-50 w-[100%] v-[100vw] backdrop-blur p-0 m-0 h-screen">
+      <div className=" bg-[#6B8E23] z-50 v-[100vh] backdrop-blur p-0 m-0 h-screen">
         <h1 className="text-center py-12 font-bold text-[#FAEBD7] text-3xl">
           List of Photos
         </h1>
